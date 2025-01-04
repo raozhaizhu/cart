@@ -1,0 +1,20 @@
+.app {
+    padding: 3rem;
+    display: flex;
+
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+    position: relative;
+}
+
+@media (max-width: 1440px) {
+    .app {
+        padding: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+

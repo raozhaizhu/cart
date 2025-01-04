@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: clamp(16px, 1vw, 30px);
+}
+body {
+    background-color: #fcf8f5;
+}
+

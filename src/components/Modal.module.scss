@@ -1,0 +1,90 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modalContent {
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+}
+.modalTitle {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.modalText {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+.purchaseInfo {
+    background-color: #fcf8f5;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.purchaseItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    .purchaseItemDetails {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+.purchaseItemPrice {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    margin-bottom: 0.5rem;
+}
+.quantity,
+.unitPrice {
+    display: inline;
+    margin-right: 1rem;
+}
+.quantity {
+    color: #c83b0e;
+    font-weight: bold;
+}
+.unitPrice {
+    color: rgba(0, 0, 0, 0.5);
+}
+.totalPrice {
+    font-weight: bold;
+}
+
+.orderTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+.orderBtn {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+    background-color: #c83b0e;
+    border-radius: 3rem;
+    cursor: pointer;
+    &:hover {
+        background-color: #952c0c;
+    }
+}
