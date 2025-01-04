@@ -26,7 +26,7 @@ function Cart() {
             <h2 className={styles.title}>Your Cart ({visibleItems.length})</h2>
             {visibleItems.length === 0 ? (
                 <div className={styles.emptyCart}>
-                    <img src='/assets/images/illustration-empty-cart.svg' alt='empty cart' />
+                    <img src='./assets/images/illustration-empty-cart.svg' alt='empty cart' />
                     <p className={styles.emptyMessage}>Your added items will appear here</p>
                 </div>
             ) : (
@@ -60,4 +60,3 @@ function Cart() {
 }
 
 export default Cart;
-
